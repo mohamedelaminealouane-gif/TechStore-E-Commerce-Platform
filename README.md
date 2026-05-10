@@ -14,7 +14,7 @@
 
 ## 🧠 About the Project
 
-**TechStore** is a fully functional e-commerce platform designed for selling tech products and home appliances. It provides customers with a smooth shopping experience — from browsing products and managing a cart to placing and tracking orders — while giving administrators full control over the catalog, orders, and users through a dedicated back-office dashboard.
+**TechStore** is a fully functional e-commerce platform designed for selling tech products and home appliances. It provides customers with a smooth shopping experience  from browsing products and managing a cart to placing and tracking orders  while giving administrators full control over the catalog, orders, and users through a dedicated back-office dashboard.
 
 Built on the **Laravel** MVC framework with a **MySQL** database and **Bootstrap** UI, TechStore is clean, responsive, and ready to scale.
 
@@ -128,12 +128,7 @@ Visit `http://localhost:8000` — the store is live!
 
 ---
 
-## 🔐 Default Credentials (after seeding)
 
-| Role | Email | Password |
-|------|-------|----------|
-| Admin | admin@techstore.com | password |
-| Customer | user@techstore.com | password |
 
 
 ## 📁 Project Structure
@@ -178,27 +173,9 @@ techstore/
 
 ---
 
-## 🔒 Role-Based Access
 
-- **Customers** can browse, add to cart, checkout, and view their own orders.
-- **Admins** have access to the full dashboard via a protected `/admin` route group, enforced by middleware.
 
-Unauthorized access to admin routes redirects to the homepage with an error.
 
----
-
-## 📸 Screenshots
-
-> *(Replace with your actual screenshots)*
-
-| Page | Preview |
-|------|---------|
-| Homepage | `screenshots/homepage.png` |
-| Product Page | `screenshots/product.png` |
-| Shopping Cart | `screenshots/cart.png` |
-| Admin Dashboard | `screenshots/admin.png` |
-
----
 
 ## 🤝 Contributing
 
